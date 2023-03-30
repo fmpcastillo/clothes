@@ -1,0 +1,342 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*#2C3333 #395B64 #E7F6F2 #A5C9CA
+font-family: 'Playball', cursive;
+font-family: 'Mulish', sans-serif;
+*/
+header{
+    background: #2c3333;
+    width: 100%;
+    height: 17vh;
+    background-size: cover;
+}
+
+
+.nombre
+{   text-decoration: none;
+    font-family: 'Playball', cursive;
+    font-size: 72px;
+    color: #E7F6F2;
+    text-transform: capitalize;
+    padding-right: 10px;
+    position: absolute;
+    top: 0%;
+
+}
+
+.clothes p a{
+    text-decoration: none;
+    font-family: 'Playball', cursive;
+    font-size: 72px;
+    color: #E7F6F2;
+    text-transform: capitalize;
+    padding-right: 10px;
+    position: absolute;
+    top: 0%;
+
+}
+
+.div-bar ul{
+    position: relative;
+    top: 75px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* fuente barra de navegacion box modeling*/
+.navbar li a{
+    font-family: 'Mulish', sans-serif ;
+    text-transform: capitalize;
+    color: #E7F6F2;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+   /*background-color: black;*/
+}
+
+/* logos resgistro y compra */
+.icons{ 
+    position: absolute;
+    top: 48px ;
+    right: 0px;
+    padding-right: 5rem;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.fondo-main{
+    background-image: url(../assets/img/fondo-1440.jpg);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size:cover;
+}
+
+.prendas{
+    position: relative;
+    top: 20rem;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.prendas li a{
+    padding-top:110px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+   /* background-color: beige;
+    border-color: aqua;
+    border-style:solid ;*/
+}
+
+
+
+/*logo whatsaap*/
+.wtsp{
+    position: fixed;
+    top:30rem;
+    right: 2rem;
+    
+}
+
+
+footer{ 
+    width: 100%;
+    height: 18vh;
+    background: #2C3333;
+    background-size:cover;
+}
+
+
+.con-nos{
+    list-style: none;
+    position:absolute;
+    padding-top: 28px ;
+    padding-left: 20px ;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+
+}/****ancla-contacto-nosotros***/
+.con-nos li a{
+    font-family: 'Mulish', sans-serif;
+    text-decoration:none;
+    text-transform: capitalize;
+    font-size: 24px;
+    color: #E7F6F2;
+}
+
+
+.logo-ubc{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top: 2rem;
+
+}
+.logo-ubc{
+    font-family: 'Mulish', sans-serif;
+    text-decoration:none;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #E7F6F2;
+}
+
+
+
+
+.logos-face-inst {
+    position: absolute;
+    right: 6rem;
+    top: 55rem;
+   
+
+}
+.face-inst{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+    }
+  
+
+
+
+/***nosotros***/
+ .container-titulo{
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif; 
+    color: #E7F6F2;
+    text-transform: capitalize;
+    position:absolute;
+    top: 1rem;
+    left: 40rem;
+    
+}
+ 
+ .contenedor{
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    background-size: contain;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E7F6F2;
+    text-transform: capitalize;
+   
+
+
+ }
+
+ /***contactos***/
+.main-contacto{
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    background-size: contain;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E7F6F2;
+    text-transform: capitalize;
+}
+.main-contacto p{
+    position: absolute ;
+    top: 10rem;
+}
+/********tienda*******/
+
+.t-fondo{
+    width: 100%;
+    height: 700px;
+    background-color: #A5C9CA;
+    overflow: visible;
+}
+.remes{
+    display: flex;
+    flex-direction:column;
+    align-items: start;
+
+    gap: 4rem;
+    padding-top: 4rem;
+    padding-left: 15rem;
+    list-style: none;
+}
+.principal li a{ position: absolute;
+    top: 10rem;
+    right: 50%;
+
+}
+.descripcion{
+    position: absolute;
+    top:10rem;
+    right:10rem;    
+    text-transform: capitalize;
+    font-family: 'Mulish', sans-serif;
+    line-height: 3rem;
+    font-size: 20px;} 
+   
+
+
+/******galeria******/
+.talle{
+    font-family: 'Mulish', sans-serif;
+    color: #E7F6F2;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 24px;
+    position: absolute;
+    top: 12rem;
+    right: 12rem;
+    line-height: 60px;
+}
+
+.g-background{
+    width: 100%;
+    height: 700px;
+    color: #A5C9CA;
+    background-color: #1E1E1E;
+}
+.categorias{
+    font-family: 'Mulish', sans-serif;
+    text-transform: capitalize;
+}
+
+.g-accesorios{
+    font-family: 'Mulish', sans-serif;
+    color: #E7F6F2;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 24px;
+    position: absolute;
+    left: 50%;
+
+}
+
+
+.contenedor-prendas{                   
+    width: 50%;
+    height: 400px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: repeat(3,200px);
+    grid-template-areas: 
+    "item-1 item-2 item-3 item-4"
+    "item-5 item-6 item-7 item-8"
+    "item-9 item-10 item-11 item-12"; 
+    justify-content:center; 
+    align-items: start; 
+    justify-items: center;
+    
+}
+
+
+
+
+
+
+   
+
+                                
+
+@media(max-width:1024px)
+
+{ 
+    header{
+        height: 11vh;
+    }
+    
+
+    footer{
+        height: 13vh;
+
+    }
+    .logos-face-inst{
+        position: relative;
+    }
+    .con-nos li a{
+        font-size: 20px;
+    }
+    .logo-ubc p{
+        font-size: 16px;
+    }
+
+} 
+
+
+@media(max-width:768px){
+    .prendas{
+        display:none;
+       
+}
+
+}
