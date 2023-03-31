@@ -16,62 +16,62 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
     <div class="clothes">
         <p><a href="../index.html">clothes</a></p>
     </div>
+    <div class="container-titulo">
+        <p>contacto</p>
+    </div>
     <div>
-        <nav> <!--barra de navegacion-->
-            <div class="div-bar">
-              <ul class="navbar">
-                <li><a href="./pages/galeria.html">nuevo</a></li>
-                <li><a href="./pages/galeria.html">indumentaria</a></li>
-                <li><a href="./pages/galeria.html">sale</a></li>
-              </ul>
-            </div>
-            <div>
-                <ul class="icons">
-                    <li><a href=""><img src="../assets/img/logo/registrarme.png" alt="registrate"></a></li>
-                    <li><a href=""><img src="../assets/img/logo/shopping-cart.png" alt="carrito-de-compra"></a></li> 
-                </ul>
-            </div>
-        </nav>
+        <ul class="icons">
+            <li><a href=""><img src="../assets/img/logo/registrarme.png" alt="registrate"></a></li>
+            <li><a href=""><img src="../assets/img/logo/shopping-cart.png" alt="carrito-de-compra"></a></li> 
+        </ul>
+    </div>
+        <ul class="icons">
+            <li><a href=""><img src="../assets/img/logo/registrarme.png" alt="registrate"></a></li>
+            <li><a href=""><img src="../assets/img/logo/shopping-cart.png" alt="carrito-de-compra"></a></li> 
+        </ul>
     </div>
     </header>
-    <main>
+
+
+    <main class="contenedor-label">
         <div class="main-contacto">
             <p>Encontranos en Whatsapps 603 555-0123 (solo mensajes)</p>
         </div>
         <div class="icon-mail">
-            <a href=""><img src="../assets/img/logo/mail.png" alt="mail">michael.mitc@example.com</a>
+            <a href=""><img src="../assets/img/logo/mail.png" alt="mail"></a>
+            <p>michael.mitc@example.com</p>
         </div>
         <div>
             <form action="" method="">
-                <fieldset>
-                    <legend>datos</legend>
-                    <label for="nombre">
-                        <span>Nombre:</span>
+                <fieldset class="container-form">
+                    
+                    <label class="intro-nombre" for="nombre" >
+                        <span>nombre:</span>
                         <input type="text" id="nombre" placeholder=" Nombre y Apellido">
                     </label>
-                    <label for="telefono">
-                        <span>Telefono:</span>
+                    <label for="telefono" class="intro-telefono">
+                        <span>telefono:</span>
                         <input type="text" id="telefono" placeholder="">
                     </label>
-                    <label for="mail">
+                    <label class="intro-mail" for="mail">
                         <span>mail:</span>
                         <input type="text" id="mail" placeholder="mail@example.com">
                     </label>
-                    <label for="mensajes">
-                        <span>Mensajes:</span>
+                    <label class="intro-mensaje" for="mensajes">
+                        <span>mensajes:</span>
                         <input type="text" id="mensajes" placeholder="Deja tu mensaje">
                     </label>
                 </fieldset>
-                <input type="submit">
+                <input class="boton-enviar" type="submit">
             </form>
         </div>
-
-        </main>
+    </main>
     <footer>
-          <div>
+        <div>
             <ul class="con-nos">
                 <li><a href="./pages/contacto.html">contacto</a></li>
                 <li><a href="./pages/nosotros.html">nosotros</a></li>
@@ -86,6 +86,7 @@
                 <li><a href="https://es-la.facebook.com/" target="_blank"><img src="../assets//img//logo/facebook.png" alt="facebook"></a></li>
                 <li><a href="https://www.instagram.com/" target="_blank"><img src="../assets/img/logo/instagram.png" alt="instagram"></a></li>
             </ul>
-        </div>   
+        </div>
+    </footer>   
 </body>
 </html>

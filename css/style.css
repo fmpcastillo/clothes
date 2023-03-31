@@ -59,12 +59,15 @@ header{
 }
 
 /* logos resgistro y compra */
-.icons{ 
+.icons {
     position: absolute;
-    top: 48px ;
+    top: 56px;
     right: 0px;
     padding-right: 5rem;
     list-style: none;
+}
+
+.icons{
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -154,51 +157,78 @@ footer{
 
 
 
-.logos-face-inst {
-    position: absolute;
-    right: 6rem;
-    top: 55rem;
-   
 
-}
+
+
 .face-inst{
+    position: absolute;
+    bottom: px;
+    right: 0px;
+    padding-right: 5rem;
     list-style: none;
     display: flex;
     flex-direction: row;
     gap: 30px;
     
     }
+    .face-inst{
+        position: absolute;
+        top: 870px;
+        right: 0px;
+        padding-right: 5rem;
+        list-style: none;
+    }
   
 
 
 
 /***nosotros***/
- .container-titulo{
+ .container-titulo {
+   
+    position:absolute;
+    top: 4rem;
+    left: 20rem;
+    font-family: 'Mulish', sans-serif;
     list-style: none;
-    font-size: 20px;
-    font-family: 'Mulish', sans-serif; 
+    font-size: 32px;
     color: #E7F6F2;
     text-transform: capitalize;
-    position:absolute;
-    top: 1rem;
-    left: 40rem;
-    
 }
- 
- .contenedor{
+
+.background-nosotros{
     width: 100%;
     height: 700px;
     background-color: black;
     background-size: contain;
+
+}
+ .contenedor{
     font-family: Arial, Helvetica, sans-serif;
-    color: #E7F6F2;
+    color:#E7F6F2;
     text-transform: capitalize;
-   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 
-
+    background-color:#252b2b;   
+    position: relative;
+    top: 11rem;
  }
+h3{
+    padding-top: 20px;
+    text-indent: 40px;
+}
+
+p{
+    position: relative;
+    left: 40px;
+    padding-bottom: 20px;
+}  
+
+
 
  /***contactos***/
+
 .main-contacto{
     width: 100%;
     height: 700px;
@@ -207,10 +237,120 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     color: #E7F6F2;
     text-transform: capitalize;
+
+}
+.icon-mail{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif ;
+    position:absolute;
+    top: 13rem;
+    left: 2rem;
+
+}
+.icon-mail p{
+    
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif ;
+    position:absolute;
+    color: #E7F6F2;
+    position: absolute;
+    top: 1rem;
+    left: 4rem;
 }
 .main-contacto p{
     position: absolute ;
     top: 10rem;
+}
+.contenedor-label{
+    
+}
+
+.container-form{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: start;
+    align-items: end;
+    
+    background-color: aqua;
+   
+   
+}
+
+.intro-nombre{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #E7F6F2;
+    position: absolute;
+    top: 10rem;
+    right: 16rem;
+  
+}
+.intro-nombre input{  
+    display:flex;
+    flex-direction: column;
+    }
+
+.intro-mail{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #E7F6F2;
+    position: absolute;
+    top: 14rem;
+    right: 16rem;
+}
+.intro-mail input{  
+    display:flex;
+    flex-direction: column;
+    }
+
+
+.intro-telefono{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #E7F6F2;
+    position: absolute;
+    top: 18rem;
+    right: 16rem;
+
+
+}
+.intro-telefono input{  
+    display:flex;
+    flex-direction: column;
+    }
+
+
+.intro-mensaje{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: #E7F6F2;
+    text-transform: capitalize;
+    font-size: 24px;
+    position: absolute;
+    top: 22rem;
+    right: 16rem;
+}
+.intro-mensaje input{  
+    display:flex;
+    flex-direction: column;
+    }
+
+.boton-enviar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 30rem;
+    right: 15rem;
+
 }
 /********tienda*******/
 
